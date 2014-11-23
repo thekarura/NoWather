@@ -1,0 +1,12 @@
+name: NoWather
+main: com.thekarura.bukkit.plugin.nowather.NoWather
+version: 1.7.2_1000
+author: the_karura
+description: Stop Rain and Snow Storm!
+commands:
+  NoWather:
+    description: 'NoWather Plugin Command.'
+    aliases: nw
+    permission-message: 'permission-message: You do not have <permission>.'
+    usage: /<command>
+    permission: NoWather.Command.NoWather
